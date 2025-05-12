@@ -1,0 +1,178 @@
+EXPERIMENT NO 1:
+    1.​ Implement a Java program to find the factorial of a given number.
+    2.​ Implement a Java program to check whether a given number is prime or not. (Take the
+    number as a command-line argument.)
+    3.​ Implement a Java program to sort a given list of 10 numbers in ascending order.
+    4.​ Implement a Java program to merge two sorted arrays.
+    5.​ Implement a Java program to perform 2×2 matrix multiplication, addition, and transpose
+    (using a switch case)
+
+
+EXPERIMENT NO 2:
+    1. Create a class called Employee that includes three pieces of information as instance
+        variables: first name, last name, and monthly salary. Your class should have a constructor
+        that initializes the three instance variables. Provide a setter and getter method for each
+        instance variable. If the monthly salary is not positive, set it to 0.0. Write a test application
+        named EmployeeTest that demonstrates the Employee class's capabilities. Create two
+        Employee objects and display each object's yearly salary. Then give each Employee a 10%
+        raise and display each Employee's yearly salary again.
+    2. Implement a Java program to print the area of a rectangle by creating a class named
+        'Area' that has two methods. The first method, named 'setDim', takes the length and breadth
+        of the rectangle as parameters. The second method, named 'getArea', returns the area of the
+        rectangle. The length and breadth of the rectangle are entered through the keyboard.
+    3. Write a Java program to demonstrate the use of static variables, static blocks, and static
+        methods.
+    4. Write a Java program to implement a stack and a queue.
+    5. Write a Java program to arrange 10 names in alphabetical order.
+
+EXPERIMENT NO 3:
+    1.​ Write a Java program to create a class known as "BankAccount" with methods called
+        deposit() and withdraw(). Create a subclass called SavingsAccount that overrides the
+        withdraw() method to prevent withdrawals if the account balance falls below one hundred.
+    2.​ Write a Java program that creates a class hierarchy for employees of a company. The base
+    class should be Employee, with subclasses Manager, Developer, and Programmer. Each
+    subclass should have properties such as name, address, salary, and job title. Implement
+    methods for calculating bonuses, generating performance reports, and managing projects.
+    3.​ Implement Following:
+        a.​ Create abstract class shapes with dim1, dim2 variables and abstract area() method.
+        Class
+        b.​ rectangle and triangle inherits shape class. Calculate area of rectangle and triangle.
+    4.​ Write a program to perform Multilevel Inheritance
+    [STUDENT]Roll no -> [TEST]Sub1, sub2 -> [RESULT] display result.
+
+
+EXPERIMENT NO 4:
+    1.​ Stack Operations using Interface: Create an interface Stack with a variable size and
+        abstract methods push(), pop(), display(), overflow(), and underflow(). Implement a
+        subclass IntegerStack that implements the Stack interface. Create a test class to check the
+        working of all methods in the IntegerStack class.
+    2.​ Shape Interface with Rectangle and Triangle: Implement the following:
+        a.​ Create an interface Shape with an abstract method area().
+        b.​ Create two classes, Rectangle and Triangle, that implement the Shape interface.
+        c.​ Calculate and display the area of both Rectangle and Triangle.
+    3.​ Student Exam Results Using Inheritance and Interface in: Implement the following
+        hierarchy:
+        a.​ Create a class Student with a variable rollNo and methods getRollNo() and
+        setRollNo().
+        b.​ Create a class Test that inherits Student and has variables sub1 and sub2 with
+        methods getMarks() and setMarks().
+        c.​ Create an interface Sports with a variable sMarks and a method set().
+        d.​ Create a class Result that inherits Test and implements the Sports interface. It
+        should display the marks.
+        e.​ Demonstrate the functionality of these classes in a test application.
+
+EXPERIMENT NO 5:
+    1.​ Implement a package LibraryManagement with classes Book and Member. The Book
+        class should have attributes like title, author, and ISBN, while the Member class should
+        store member details. Use this package to create a simple library system.
+    2.​ Create a package Ecommerce containing classes Product, Customer, and Order.
+        Implement methods for placing an order, displaying product details, and calculating total
+        order cost. Use this package in another program.
+    3.​ Create a package named MathOperations that contains classes for mathematical
+        functions like floor, round, and ceil. Implement a program that uses these functions to
+        perform operations on different numbers. (The Math class in Java contains the methods
+        floor(), ceil(), and round())
+
+EXPERIMENT NO 6:
+    1.​ Problem Statement: Develop a BankAccount class that implements core banking
+    operations:
+    ○​ balanceEnquiry(): Displays the current account balance.
+    ○​ withdraw(): Deducts the specified amount from the account balance.
+    ○​ deposit(): Adds the specified amount to the account balance.
+    Implement user-defined exceptions:
+    a.​ LowBalanceException: Thrown when a withdrawal amount exceeds the available
+    balance.
+    b.​ NegativeNumberException: Thrown when attempting to deposit or withdraw a
+    negative amount.
+    Develop a Java application program that demonstrates these functionalities and properly
+    handles these exceptions using try-catch blocks.
+
+    2.​ Write a Java program with a method that takes an integer as input. If the number is odd,
+    the method should throw a custom exception (OddNumberException). Handle this
+    exception in the main program.
+
+    3.​ Create a package ExceptionHandlingDemo containing classes Calculator and
+        DivisionException.
+        ○​ The Calculator class should have a method divide(int a, int b) that performs
+        division.
+        ○​ If b is zero, throw a custom exception DivisionException with an appropriate error
+        message.
+        ○​ Handle the exception in the main program and display an error message instead of
+        crashing.
+
+EXPERIMENT NO: 7
+        1.​ Write a Java program that reads data from a sample.txt file located outside the
+        program’s directory.
+        
+        2.​ Develop a Java program that performs the following operations:
+        ○​ Accept student information such as name, age, weight, height, city, and phone
+        number from the user.
+        ○​ Store this information in a file using DataOutputStream along with
+        FileOutputStream.
+        ○​ Retrieve and display the data using DataInputStream along with
+        FileInputStream.
+        
+        3.​ Write a Java program to read a text file and compute the following:
+        ○​ The total number of vowels in the file.
+        ○​ The total number of words in the file.
+        ○​ The number of times the character 'a' appears in the file.
+        
+        4.​ Write a program that takes a file name as input through the command line.
+        ●​ If the file exists, open it and display its contents.
+        ●​ After displaying the contents, ask the user: “Do you want to add data to the end of
+        the file?”
+        ●​ If the user's response is "Yes", accept data from the user and append it to the file.
+        ●​ If the file does not exist, create a new file and allow the user to input data to store
+        in it.
+        ●​ The user should type “exit” on a new line to stop entering data. Implement this
+        program using character stream classes.
+
+EXPERIMENT NO 8:
+    1.Implement GUI: counter no COUNT UP COUNT DOWN AND RESET BUTTON
+    2.​ Write a GUI program to find the reverse of a given number using Swing (with IDE).
+    3.​ Write a GUI program to demonstrate the use of radio buttons (e.g., gender selection).
+
+
+EXPERIMENT NO 9:
+    1.​ Design a standard calculator using Swing components that supports basic operations
+    (Addition, Subtraction, Multiplication, and Division). Implement this with Intellij IDEA
+    Implementation Guidelines:
+    ○​ Use JTextField to display input/output.
+    ○​ Use JButton for digits (0-9) and operations ( +, -, *, /, =, %, square, square-root,
+    cube, C, etc. ).
+    ○​ Implement event handling for button clicks.
+    ○​ Display results in the text field.
+
+EXPERIMENT NO 10:
+    1.​ GUI Program to display the current mouse coordinates on the window.
+    2.​ GUI Program to implement a simple Timer (using background events). Include a Start and
+    Stop button to control the timer.
+    3.​ Create a GUI with a JComboBox containing image names. On selection, display the
+    corresponding image using a JLabel and ItemListener.
+    4.​ GUI with a JTextArea and a label. As the user types, show the character count and word
+    count in real-time using a KeyListener.
+    5.​ Write Java GUI Program using Swing to change background on selecting color.
+
+EXPERIMENT NO 11:
+    Give Examples of Layouts: BorderLayout, FlowLayout, GridLayout, factorial using applet.
+
+EXPERIMENT NO 12:
+    1.​ Write a program that bounces a blue ball inside a JPanel. The ball should begin moving
+    with a mousePressed event. When the ball hits the edge of the JPanel, it should bounce off
+    the edge and continue in the opposite direction. The ball should be updated using a
+    Runnable.
+    2.​ Create an application of Stopwatch using the concept of Multithreading.
+
+    
+EXPERIMENT NO 13:
+1. Implement Java-MySQL database connectivity program to display contents of student table.
+2. Implement Java-MySQL database connectivity program to perform following operations on student table.
+   A. select B. Insert C. Update d. Delete
+3. Write GUI based program to create a login form with field’s username and password. Store registration 
+data in MySQL database.
+
+
+EXPERIMENT NO 14:
+    1.​ Implement chatting application using java socket programming
+    2.​ Develop a TCP client-server application where the client sends two numbers to the server,
+    and the server returns their sum.
